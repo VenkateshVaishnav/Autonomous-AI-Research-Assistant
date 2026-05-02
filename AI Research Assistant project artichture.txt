@@ -1,0 +1,29 @@
+AI Research Assistant
+├── Input Layer
+│   ├── User Query (Natural Language)
+│   └── Context Upload (PDFs, URLs)
+│
+├── Agent Layer
+│   ├── Planner Agent → Breaks query into tasks
+│   ├── Retriever Agent → Fetches relevant docs (RAG)
+│   ├── Analyst Agent → Summarizes + compares info
+│   └── Critic Agent → Validates hallucination
+│
+├── ML Layer
+│   ├── Embeddings Model (e.g., Sentence Transformers)
+│   └── Ranking Model (Relevance scoring)
+│
+├── GenAI Layer
+│   └── LLM (GPT / LLaMA) → Final answer synthesis
+│
+└── Output Layer
+    ├── Structured Report
+    └── Citations + Confidence Score
+
+
+
+1. 🤖 Autonomous AI Research Assistant (RAG + Multi-Agent System)
+
+
+
+PS: Design and develop an autonomous AI system that can answer complex user queries by retrieving, analyzing, and synthesizing information from multiple unstructured data         	sources such as PDFs, research papers, and web documents, while minimizing hallucinations and ensuring factual accuracy.
